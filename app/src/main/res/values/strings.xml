@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PR29</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+
+    <string name="todo">TODO</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
