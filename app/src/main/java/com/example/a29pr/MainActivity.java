@@ -56,7 +56,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btnVideo:
                 Intent intent2 = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
-                intent2.putExtra(MediaStore.EXTRA_OUTPUT, (TYPE_VIDEO));
+                intent2.putExtra(MediaStore.EXTRA_OUTPUT,  (TYPE_VIDEO));
                 startActivityForResult(intent2, REQUEST_CODE_VIDEO);
 
                 break;
